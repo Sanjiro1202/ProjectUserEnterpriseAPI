@@ -19,26 +19,26 @@ Esta API se inicializará en el puerto 3000 del servidor local de nuestro comput
 Cada petición en la columna izquierda:
 
 <p align="center">
-  <img src="./img/p1.png"/>
+  <img src="./img/e1.png"/>
 </p>
 
 Representa una instrucción CRUD que tendrá una pequeña descripción en su nombre. Para própositos de agilidad, solo se realizaron peticiones sobre el módulo Projects. Antes de realizar alguna petición, es necesario establecer el ambiente de variables, ya que Postman por defecto no tiene ningún ambiente seleccionado:
 
 <p align="center">
-  <img src="./img/p2.png" />
-  <img src="./img/p3.png" />
+  <img src="./img/e2.png" />
+  <img src="./img/e3.png" />
 </p>
 
 Para enviar la petición, solo hace falta dar al botón "Send":
 
 <p align="center">
-  <img src="./img/p4.png"/>
+  <img src="./img/e4.png"/>
 </p>
 
 Por último la respuesta del servidor se mostrará en la sección seleccionada en la imagen:
 
 <p align="center">
-  <img src="./img/p5.png"/>
+  <img src="./img/e5.png"/>
 </p>
 
 Las actualizaciones y consultas recibiran un JSON como respuesta. Las eliminaciones y creaciones son validadas a partir del código de "Status" que se encuentra en la sección de la respuesta del servidor en la esquina superior derecha. Los códigos de validación correcta son 200(Como en la imagen) y 201.
